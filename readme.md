@@ -1,6 +1,6 @@
 # Problem with CAP Nodejs and SQLite on INSERT.into...from
 ## Problem description
-Based on the model in (model.cds)[./db/model.cds] I am trying to perform a simple...
+Based on the model in [model.cds](./db/model.cds) I am trying to perform a simple...
 ```javascript
 const result = await INSERT.into(e2).from(SELECT.columns('ID','description').from(e1))
 ```
